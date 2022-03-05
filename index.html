@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijayasankar Murugan</title>
+    <link rel="icon" href="MyImages/MyIcon.png">
+    <link rel="stylesheet" href="Styles.css">
+    <script src="Script.js"></script>
+</head>
+
+<body>
+    <div class="HomePage" id="HomePage">
+        <nav class="ToolBar">
+            <img src="MyImages/MyIcon.png">
+            <button onclick="Contact()">Contact</button>
+            <button onclick="Resume()">Resume</button>
+            <button onclick="About()">About</button>
+            <button onclick="Home()">Home</button>
+        </nav>
+        <div class="Center">
+            <p style="color: white; font-size: 30px; padding-left: 0px; display: inline-block;"><span style="color: aqua; font-size: 50px;">Hey!</span>I'am Vijayasankar</p>
+            <p style="color: white; font-size: 20px; word-spacing: 5px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Now, I currently pursuing BE-Computer Science and Engineering <br>I can devolop Windows and Android Applicatoin and websites.</p>
+        </div>
+        <div class="IconList">
+            <input onclick="Facebook()" type="image" , src="MyImages/Facebook.png" width="70" , height="70">
+            <input onclick="Twitter()" type="image" , src="MyImages/Twitter.png" width="70" , height="70">
+            <input onclick="LinkedIn()" type="image" , src="MyImages/Linkedin.png" width="70" , height="70">
+            <input onclick="GitHub()" type="image" , src="MyImages/GitHub.png" width="70" , height="70">
+            <input onclick="YouTube()" type="image" , src="MyImages/Youtube.png" width="70" , height="70">
+            <div class="AboutPage" id="AboutPage">
+                <div style=" width: 1000px; height: 70px;">
+                    <button onclick="PageLeftAbout()">Back</button>
+                </div>
+                <div class="AboutCenter">
+                    <img class="MyImage" src="MyImages/MyPhoto.png">
+                </div>
+                <div class="AboutCenterText">
+                    <p style="word-spacing: 5px;  color: aliceblue; font-size: 18px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><span style="color: blueviolet; font-size: 60px;">Hey!</span><br> <span style="color: aqua; font-size: 50px;">I'm</span> <span style="color: burlywood; font-size: 40px;">Vijayasankar Murugan</span><br> This is my Profile Page. So,
+                        I have to say something about me I currently pursuing 2nd year BE-Computer Science and Engineering in Mailam Engineering College in Mailam. <br>I have completed many projects like windows applicatoin and android applicaton using
+                        python programming in my college. and then I know c++, c, java, sql, html and javascript programming languages. But I think learn lot of programming languages.<br> I enjoy reading a good book and I realy like to play volleyball.</p>
+
+                </div>
+                <input onclick="Facebook()" type="image" , src="MyImages/Facebook.png" width="70" , height="70">
+                <input onclick="Twitter()" type="image" , src="MyImages/Twitter.png" width="70" , height="70">
+                <input onclick="LinkedIn()" type="image" , src="MyImages/Linkedin.png" width="70" , height="70">
+                <input onclick="GitHub()" type="image" , src="MyImages/GitHub.png" width="70" , height="70">
+                <input onclick="YouTube()" type="image" , src="MyImages/Youtube.png" width="70" , height="70">
+            </div>
+            <div class="ResumePage" id="ResumePage">
+                <button onclick="PageLeftResume()">Back</button>
+                <div>
+                    <h1 style="color: blanchedalmond; font-size: 50px; position: relative; top: 50px; left: 250px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">See my Resume here</h1>
+                    <button style="font-size: 20px; position: relative; left: 150px; top: 30px;" onclick="window.open('MyImages/MyResume.pdf', '_blank', 'fullscreen=no');return false">See My Resume</button>
+                    <button style="font-size: 20px; position: relative; left: 150px; top: 30px;"><a style="text-decoration: none; color: blue;" href="MyImages/MyResume.pdf" download="Resume For vijayasankar">Download My Resume</a></button>
+                    <button style="font-size: 20px; position: relative; left: 150px; top: 30px;" onclick="HireMe()">Hire Me</button>
+                </div>
+                <div class="HirePage" id="HirePage">
+                    <button onclick="PageLeftInResume()">Back</button>
+
+                    <div class="SendMailPage">
+                        <h1 style="color: blanchedalmond; font-size: 40px; position: relative; top: 20px; left: 100px;">Send mail here about me</h1>
+                        <button style="font-size: 30px; position: relative; left: 350px; top: 50px;" onclick="Mail()">Send Mail</button>
+                        <div style="position: relative; left: 350px; top: 80px;">
+                            <input onclick="Facebook()" type="image" , src="MyImages/Facebook.png" width="70" , height="70">
+                            <input onclick="Twitter()" type="image" , src="MyImages/Twitter.png" width="70" , height="70">
+                            <input onclick="LinkedIn()" type="image" , src="MyImages/Linkedin.png" width="70" , height="70">
+                            <input onclick="GitHub()" type="image" , src="MyImages/GitHub.png" width="70" , height="70">
+                            <input onclick="YouTube()" type="image" , src="MyImages/Youtube.png" width="70" , height="70">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="ContactPage " id="ContactPage">
+                <button onclick="PageLeftContact()">Back</button>
+                <div>
+                    <h1 style="color: aqua; font-size: 40px; position: relative; left: 150px; top: 50px;">If you want hire me send mail <br><span style="color:azure; font-size: 30px; position: relative; left: 150px; top: 30px;">Email :</span><span style="color: lightgreen; font-size: 30px; position: relative; left: 150px; top: 30px;">     vijayasankar16052003@gmail.com</span></h1>
+                </div>
+                <div style="position: relative; left: 30px; top: 80px;">
+                    <input onclick="Facebook()" type="image" , src="MyImages/Facebook.png" width="70" , height="70">
+                    <input onclick="Twitter()" type="image" , src="MyImages/Twitter.png" width="70" , height="70">
+                    <input onclick="LinkedIn()" type="image" , src="MyImages/Linkedin.png" width="70" , height="70">
+                    <input onclick="GitHub()" type="image" , src="MyImages/GitHub.png" width="70" , height="70">
+                    <input onclick="YouTube()" type="image" , src="MyImages/Youtube.png" width="70" , height="70">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
